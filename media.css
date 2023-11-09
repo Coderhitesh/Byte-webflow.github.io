@@ -1,0 +1,520 @@
+@media (max-width:1050px) {
+
+    /* hero section start from here  */
+
+    .hero-section .container .about-hero .about {
+        width: 50%;
+    }
+
+    .hero-section .container .about-hero .about h1 {
+        font-size: 6rem;
+    }
+
+    .hero-section .container .about-hero .about p {
+        font-size: 1.7rem;
+        width: 90%;
+    }
+
+    .hero-section .container .about-hero .hero-image {
+        width: 44%;
+    }
+
+    /* testimonial section start from here  */
+
+    .testimonial-section .container .clients .left {
+        gap: 60px;
+    }
+
+    .testimonial-section .container .clients .left p {
+        font-size: 2.4rem;
+    }
+
+    /* logos section start from here  */
+
+    .logos-section .container {
+        flex-direction: column;
+        gap: 40px;
+        align-items: flex-start;
+    }
+
+    .logos-section .container .logos-detail {
+        width: 50%;
+    }
+
+    .logos-section .container .logos-box {
+        width: 83%;
+    }
+
+    .logos-section .container .logos-box img {
+        width: 16%;
+    }
+}
+
+@media (max-width:980px) {
+
+    /* Services section start from here  */
+
+    .services-section .container .card-box .card .card-details h2 {
+        font-size: 3.5rem;
+    }
+
+}
+
+@media (max-width:930px) {
+
+    /* header section start from here  */
+
+    .desktop-header {
+        display: none;
+    }
+
+    .mob-header {
+        display: block;
+    }
+
+    /* Services section start from here  */
+
+    .services-section .container .card-box {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .services-section .container .card-box .card {
+        width: 47%;
+        padding: 5rem 2.7rem;
+    }
+
+    /* .testimonial-section start from here  */
+
+    .testimonial-section .container .clients {
+        gap: 40px;
+        flex-wrap: wrap;
+    }
+
+    .testimonial-section .container .clients .left {
+        width: 100%;
+        gap: 40px;
+    }
+
+    .testimonial-section .container .clients .right {
+        width: 40%;
+    }
+
+    /* contact section start from here  */
+
+    .contact-section .container .content{
+        width: 90%;
+    }
+
+    .contact-section .container .content p{
+        width: 65%;
+    }
+
+}
+
+@media (max-width:830px) {
+
+    /* global css style  */
+
+    .container {
+        padding: 3rem 4.1rem 5rem;
+    }
+
+    .mob-header .navbar{
+        padding: 2.8rem 2.1rem;
+    }
+
+    /* hero section start from here  */
+
+    .hero-section .container {
+        padding: 7rem 1.7rem;
+    }
+
+    .hero-section .container .about-hero .about h1 {
+        font-size: 5.2rem;
+    }
+
+    .hero-section .container .about-hero .about p {
+        font-size: 1.3rem;
+        width: 90%;
+    }
+
+    /* about section start from here  */
+
+    .about-section .container .hero-experience {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .about-section .container .hero-experience .content {
+        width: 100%;
+    }
+
+    /* work section start from here  */
+
+    .work-section .container .work-box-1 .img {
+        height: 48rem;
+    }
+
+    .work-section .container .work-box-1 .work-detail {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .work-section .container .work-box-1 .work-detail .work-name {
+        width: 100%;
+    }
+
+    .work-section .container .work-box-1 .work-detail .about-work {
+        width: 100%;
+    }
+
+    .work-section .container .work-box-same {
+        flex-wrap: wrap;
+        gap: 80px;
+        margin-top: 80px;
+    }
+
+    .work-section .container .work-box-same .left-work-box {
+        width: 100%;
+    }
+
+    .work-section .container .work-box-same .right-work-box {
+        width: 100%;
+    }
+
+    /* logos section start from here  */
+
+    .logos-section .container .logos-detail {
+        width: 100%;
+    }
+
+    .logos-section .container .logos-detail h2 {
+        font-size: 4rem;
+    }
+
+    .logos-section .container .logos-box {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    /* contact section start from here  */
+
+    .contact-section .container{
+        padding: 7rem 2.7rem 5rem;
+    }
+
+    .contact-section .container .content p{
+        width: 75%;
+    }
+
+
+}
+
+@media (max-width:750px){
+    /* contact section start from here  */
+
+    .contact-section .container .content h2{
+        font-size: 5rem;
+    }
+
+    /* footer start from here  */
+
+    footer .footer-box .navigation-box{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 30px;
+    }
+}
+
+@media (max-width:730px) {
+
+    /* hero section start from here  */
+
+    .hero-section .container .about-hero {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 9vh;
+    }
+
+    .hero-section .container .about-hero .about {
+        width: 90%;
+        gap: 6.5vh;
+    }
+
+    .hero-section .container .about-hero .about h1 {
+        font-size: 4.8rem;
+    }
+
+    .hero-section .container .about-hero .about p {
+        font-size: 2.2rem;
+        width: 95%;
+    }
+
+    .hero-section .container .about-hero .hero-image {
+        width: 100%;
+    }
+
+    .hero-section .container .about-hero .hero-image img {
+        height: 600px;
+    }
+
+
+
+    /* services section start from here  */
+
+    .services-section .container .card-box {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .services-section .container .card-box .card {
+        width: 100%;
+    }
+}
+
+@media (max-width:620px) {
+
+    /* testimonial section start from here  */
+
+    .testimonial-section .container {
+        padding: 3rem 1.8rem 5rem;
+    }
+
+    .testimonial-section .container .title {
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .testimonial-section .container .title span {
+        font-size: 3.8rem;
+    }
+
+    .testimonial-section .container .clients {
+        margin-top: 25px;
+        padding: 40px 15px;
+        gap: 35px;
+    }
+
+    .testimonial-section .container .clients .left p {
+        font-size: 2rem;
+    }
+
+    .testimonial-section .container .clients .left {
+        gap: 27px;
+    }
+
+    .testimonial-section .container .clients .left .name span {
+        font-size: 1.8rem;
+    }
+
+    .testimonial-section .container .clients .right {
+        width: 50%;
+    }
+
+    /* logos section start from here  */
+
+    .logos-section .container .logos-detail h2{
+        font-size: 3.5rem;
+    }
+
+    .logos-section .container .logos-box{
+        width: 100%;
+        flex-direction: row;
+        gap: 15px;
+    }
+
+    .logos-section .container .logos-box img{
+        width: 56%;
+    }
+
+    .logos-section .container .logos-box .first-box {
+        flex-direction: column;
+    }
+
+    .logos-section .container .logos-box .second-box {
+        flex-direction: column;
+    }
+
+}
+
+
+
+@media (max-width:530px) {
+
+    /* hero section start from here  */
+
+    .hero-section .container .about-hero .about {
+        width: 100%;
+        gap: 6.5vh;
+    }
+
+    .hero-section .container .about-hero .about h1 {
+        font-size: 4rem;
+    }
+
+    .hero-section .container .about-hero .about p {
+        font-size: 2rem;
+        width: 98%;
+    }
+
+    .hero-section .container .about-hero .hero-image img {
+        height: 500px;
+    }
+
+    /* about section start from here  */
+
+    .about-section .container .hero-experience .content p {
+        font-size: 3rem;
+        font-weight: 100;
+        text-align: center;
+    }
+
+    .about-section .container .hero-experience .content .more-experience {
+        flex-direction: column;
+    }
+
+    .about-section .container .hero-experience .content .more-experience p {
+        text-align: center;
+        width: 100%;
+        margin-top: 3rem;
+    }
+
+    /* work section start from here  */
+
+    .work-section .container .work-box-1 .img {
+        height: 40rem;
+    }
+
+    .work-section .container .work-box-same .left-work-box .img {
+        height: 40rem;
+    }
+
+    .work-section .container .work-box-same .right-work-box .img {
+        height: 40rem;
+    }
+
+    /* contact section start from here  */
+
+    .contact-section .container{
+        padding: 7rem 1.5rem 5rem;
+    }
+
+    .contact-section .container .content {
+        width: 100%;
+    }
+
+    .contact-section .container .content h2{
+        font-size: 4rem;
+    }
+
+    .contact-section .container .content p{
+        width: 85%;
+        font-size: 1.6rem;
+    }
+
+    .contact-section .container .content a{
+        margin-top: 3rem;
+    }
+
+    /* footer start from here  */
+
+    footer .footer-box .link-box{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+}
+
+@media (max-width:400px) {
+    /* hero section start from here  */
+
+    .hero-section .container .about-hero .about .hero-social-media a {
+        font-size: 2rem;
+        font-weight: 100;
+    }
+
+    .hero-section .container .about-hero .about .hero-social-media .hero-project-link {
+        font-size: 1.5rem;
+        padding: 4rem 1.7rem;
+    }
+
+    .hero-section .container .about-hero .hero-image img {
+        height: 300px;
+    }
+
+    /* about section start from here  */
+
+    .about-section .container .hero-experience .content p {
+        font-size: 2.7rem;
+        font-weight: 100;
+        text-align: center;
+    }
+
+    /* services section start from here  */
+
+    .services-section .container .card-box .card .card-details h2 {
+        font-size: 3.1rem;
+    }
+
+    .services-section .container .card-box {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .services-section .container .card-box .card {
+        width: 100%;
+        padding: 5rem 2.1rem;
+    }
+
+    .services-section .container .card-box .card {
+        height: 500px;
+    }
+
+    /* work section start from here  */
+
+    .work-section .container .work-box-1 .img {
+        height: 30rem;
+    }
+
+    .work-section .container .work-box-1 .work-detail .about-work p {
+        font-size: 1.8rem;
+    }
+
+    .work-section .container .work-box-same .left-work-box p {
+        font-size: 1.8rem;
+    }
+
+    .work-section .container .work-box-same .left-work-box .img {
+        height: 30rem;
+    }
+
+    .work-section .container .work-box-same .right-work-box p {
+        font-size: 1.8rem;
+    }
+
+    .work-section .container .work-box-same .right-work-box .img {
+        height: 30rem;
+    }
+
+    /* logos section start from here  */
+
+    .logos-section .container{
+        padding: 2.5rem 2.1rem 5rem;
+    }
+
+    /* contact section start from here  */
+
+    .contact-section .container .content h2{
+        font-size: 3.4rem;
+    }
+
+    .contact-section .container .content p{
+        width: 85%;
+        font-size: 1.6rem;
+    }
+}
